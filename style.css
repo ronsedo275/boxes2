@@ -1,4 +1,161 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.nav-bar{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(6, 6, 14);
+    padding: 1.5rem;
+}
+
+.nav-bar h1{
     color: white;
+    padding-right: 2rem;
+    font-size: 30px;
+}
+
+.nav-bar button{
+    background: linear-gradient( to right, #DD3CFA, #6143F0);
+    border: none;
+    padding: 1rem 1rem;
+    border-radius: 99rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 100px 5px #6143F0;
+    transition: all .4s ease-in;
+}
+
+.nav-bar button:hover{
+    background: #6143F0;
+}
+
+.wallet, i{
+    color: white;
+}
+
+.wallet{
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+
+.input1 input{
+    background: #16181D;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 99rem;
+    border: 2px #222329 solid;
+}
+
+.input1{
+    padding-right: 2rem;
+}
+
+.input1 input::placeholder{
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #DD3CFA;
+}
+
+.home{
+    color: #DD3CFA;
+}
+
+/* Home Container */
+
+.home-container{
+    background: #13141E;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 14.5rem;
+}
+
+.home-container h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.home-container p{
+    padding-top: 1.5rem;
+}
+
+.home-container i{
+    color: #DF3AFA;
+    padding-right: .5rem;
+}
+
+.home-container button{
+    background: #FFFFFE;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 99rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.home-container button:hover{
+    background: #e8e8e8;
+    box-shadow: 0 0 100px 5px #DD3CFA;
+}
+
+.home-button{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+
+/* Live Auctions */
+
+.auctions-container{
+    background: #030303;
+    height: 100vh;
+}
+
+.fa-circle-dot{
+    color: #F70205;
+}
+
+.atitle-left{
+    
+}
+
+.atitle-left h1{
+    color: #fff;
+}
+
+.atitle-left p{
+    color: #999999;
+}
+
+.auctions-title{
+    display: flex;
 }
