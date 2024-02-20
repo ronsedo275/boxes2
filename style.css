@@ -135,7 +135,7 @@ a:hover{
 
 /* Live Auctions */
 
-.auctions-container{
+.auctions-container, .latest-collections{
     background: #030303;
     height: 100vh;
     padding-top: 5rem;
@@ -145,31 +145,32 @@ a:hover{
     color: #F70205;
 }
 
-.atitle-left i{
+.atitle-left i, .ltitle-left i{
     position: relative;
     top: 20px;
 }
 
-.atitle-left{
+.atitle-left, .ltitle-left{
     display: flex;
     gap: .8rem;
 }
 
-.atitle-left h1{
+.atitle-left h1, .ltitle-left h1{
     color: #fff;
 }
 
-.atitle-left p{
+.atitle-left p, .ltitle-left p{
     color: #999999;
 }
 
-.auctions-title{
+.auctions-title, .latest-title{
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     gap: 25rem;
 }
 
-.atitle-right{
+.atitle-right, .ltitle-right{
     display: flex;
     gap: .7rem;
 }
@@ -276,3 +277,25 @@ a:hover{
     padding-top: 20px;
     font-size: 50px;
 }
+
+/* Latest Collection */
+
+.latest-collections{
+    background: #0E0D11;
+    height: 100vh;
+}
+
+
+
+
+
+/* 
+    card background - color: #030303;
+    1. yellow - color: #F8B401;
+    2.5 blue - color: #082190;
+    2. light purple - color: #A81FAC;
+    3. dark purple - color: #37295C;
+    4. red - color: #CD2003;
+    5. light-blue: #1599D4;
+    6. light-pink: #F5ADBE;
+*/
