@@ -138,12 +138,22 @@ a:hover{
 .auctions-container{
     background: #030303;
     height: 100vh;
+    padding-top: 5rem;
 }
 
 .fa-circle-dot{
     color: #F70205;
 }
 
+.atitle-left i{
+    position: relative;
+    top: 20px;
+}
+
+.atitle-left{
+    display: flex;
+    gap: .8rem;
+}
 
 .atitle-left h1{
     color: #fff;
@@ -155,4 +165,114 @@ a:hover{
 
 .auctions-title{
     display: flex;
+    justify-content: space-evenly;
+    gap: 25rem;
+}
+
+.atitle-right{
+    display: flex;
+    gap: .7rem;
+}
+
+.fa-arrow-left{
+    background: #1E1E20;
+    padding: 1rem;
+    border-radius: 99rem;
+}
+
+.fa-arrow-right{
+    background: linear-gradient(to right,#6746E8, #D43CFC);
+    border-radius: 99rem;
+    padding: 1rem;
+}
+
+.auctions-cards1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+
+.card{
+    background: #353444;
+    height: 57vh;
+    width: 31vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15px;
+}
+
+.img1{
+    background: #E3EEFF;
+}
+
+.img2{
+    background: #F3E0EF;
+}
+
+.img3{
+    background: #F2EBEB;
+}
+
+.img4{
+    background: #F0EEFF;
+}
+
+.creator{
+    color: #82828E;
+}
+
+.card-profiles{
+    color: white;
+}
+
+.card-profiles{
+    line-height: 20px;
+}
+
+.card1-title{
+    color: white;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 2rem;
+    font-size: 20px;
+}
+
+.card-profile1{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    padding-top: .6rem;
+}
+
+.card-profile1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99rem;
+}
+
+.card1-left{
+    color: white;
+    line-height: 20px;
+}
+
+.card-left1{
+    padding-top: 20px;
+}
+
+.auctions-cards-bottom{
+    width: 85rem;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
 }
